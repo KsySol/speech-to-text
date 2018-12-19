@@ -1,0 +1,10 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar 
+ */
+
+grammar grammar;
+
+public <feelings>  = ( привет | как дела )+;
+public <voices>  = (  книга | ноутбук | телефон );

@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar 
+ */
+
+grammar grammar;
+
+public <worlds>  = ( how are you | hello | school | Goodbye  | University | table  | pen  | book  | keyboard )+;
+public <filings>  = ( good | sad  | study in university | See you tomorrow | Anyone can do that 
+                    | I has come);
+public <number> = (  zero | one | two | three | four | five | six | seven | nine | ten
+                    hundred | thousand | million )+;                   

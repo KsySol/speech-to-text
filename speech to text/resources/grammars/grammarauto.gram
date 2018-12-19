@@ -1,0 +1,14 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar 
+ */
+
+grammar grammar;
+
+public <feelingsrus>  = ( привет | как дела | спасибо | первий | хорошо )+;
+public <simplerus>    = ( книга | окей | я читаю | книгу | ноутбук | юзер | плейлист | логин | кава | гоу)+;
+public <feelingseng>  = ( hello | good | nice | unreal | all right )+;
+public <simpleeng>    = ( book | how are you | I | read | book | ok | coffee | notebook|
+                          user | playlist | login | go)+;
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="src" path="rus_acoustic"/>
+	<classpathentry kind="src" path="auto_acoustic"/>
+	<classpathentry kind="lib" path="resources/libraries/sphinx4-core-5prealpha-20160628.232526-10.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/sphinx/useful-docs/sphinx4-core-5prealpha-20160628.232526-10-sources.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="resources/libraries/sphinx4-data-5prealpha-20160628.232535-10.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
